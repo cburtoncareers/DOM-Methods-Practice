@@ -6,12 +6,13 @@ const imageElement = document.createElement('img')
 const anchorElement = document.createElement('a')
 
 
+removeButtonElement.append('remove')
 
 parentElement.append(mainElement, removeButtonElement)
 
 mainElement.append(imageElement, anchorElement)
 
-
+anchorElement.append('Mercedes-Benz')
 //Set the attributes for the image tag
 
 imageElement.setAttribute('class', 'img')
